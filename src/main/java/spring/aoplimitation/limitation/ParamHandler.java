@@ -1,9 +1,11 @@
 package spring.aoplimitation.limitation;
 
+import org.springframework.context.annotation.Primary;
 import org.springframework.stereotype.Component;
 import spring.aoplimitation.aop.AddParam;
 
 @Component
+@Primary
 class ParamHandler {
 
     @AddParam
